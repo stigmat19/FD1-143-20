@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 10000px;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+}
+
+.small {
+    font-size: 12px;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.clearfix:after {
+    content: ".";
+    visibility: hidden;
+    display: block;
+    height: 0;
+    clear: both
+}
+
+h1 {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 86px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-top: 177px;
+    margin-bottom: 39px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #000000;
+}
+
+h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    color: #FFFFFF;
+
+}
+
+h4 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 12px 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    background-color: transparent;
+}
+
+.sign_in {
+    background-color: #fff;
+    color: #ED4C5C;
+    margin-top: 39px;
+}
+
+.clear {
+    clear: both;
+}
+
+/*header*/
+.header {
+    height: 763px;
+    background: url('../img/header-gradient.png') no-repeat center,
+    url('../img/header_bg.png') no-repeat center;
+    background-size: cover;
+    color: #FFFFFF;
+    padding-top: 58px;
+    text-align: center;
+}
+
+.logo {
+    margin-top: -5px;
+}
+
+.header .logo img {
+    float: left;
+}
+
+.header .logo h4 {
+    float: left;
+    margin-top: 4px;
+    margin-left: 7px;
+    color: #FFFFFF;
+}
+
+.logo {
+    float: left;
+}
+
+.header ul {
+    width: 445px;
+    margin: 0 auto;
+}
+
+.header ul li {
+    float: left;
+    margin-left: 8px;
+    margin-right: 9px;
+}
+
+.header ul li a {
+    text-transform: uppercase;
+}
+
+.login {
+    float: right;
+}
+
+.language {
+    margin-top: -8px;
+    float: left;
+}
+
+.language span {
+    display: inline-block;
+    margin-left: 11px;
+    margin-right: 5px;
+    vertical-align: 10px;
+}
+
+.login button {
+    float: left;
+    margin-top: -13px;
+}
+
+
+/*second_block*/
+.second_block {
+    padding-top: 95px;
+    padding-bottom: 95px;
+}
+
+.second_block--content {
+    width: 445px;
+    float: left;
+}
+
+.second_block--content h2 {
+    margin-bottom: 40px;
+}
+
+.second_block--content p {
+    margin-bottom: 40px;
+}
+
+.second_block--content a {
+    line-height: 140%;
+    color: #ED4C5C;
+}
+
+.second_block--video {
+    float: left;
+    margin-left: 125px;
+}
+
+.play {
+    margin-left: -478px;
+    display: inline-block;
+    vertical-align: 120px;
+}
+
+/*features*/
+.features {
+    background-color: #FAFAFA;
+    padding-top: 63px;
+    padding-bottom: 124px;
+    text-align: center;
+}
+
+.features h2 {
+    margin-bottom: 63px;
+}
+.features ul li{
+    width: 350px;
+    height: 355px;
+}
+.features ul li{
+    padding-top: 157px;
+}
+.features ul li div{
+    width: 293px;
+    height: 198px;
+    background: #FFFFFF;
+    box-shadow: 0 5px 30px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    margin: 0 auto;
+    padding: 33px 20px 25px;
+}
+.features ul li div h4{
+    line-height: 22px;
+    color: #101010;
+    text-transform: none;
+    margin-bottom: 20px;
+}
+.features ul li div p{
+    margin-bottom: 25px;
+}
+.features ul li div a{
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 150%;
+    color: #ED4C5C;
+
+}
+
+.features ul li:first-child{
+    float: left;
+    background: url("../img/feature1.png") top center no-repeat;
+}
+.features ul li:last-child{
+    margin-left: auto;
+    margin-right: auto;
+    background: url("../img/feature2.png") top center no-repeat;
+}
+.features ul li:nth-child(2){
+    float: right;
+    background: url("../img/feature3.png") top center no-repeat;
+}
+
+
+
+
+
+
+
