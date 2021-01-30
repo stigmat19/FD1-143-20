@@ -252,9 +252,122 @@ a {
     background: url("../img/feature3.png") top center no-repeat;
 }
 
+/*technology*/
+.technology{
+    padding-top: 63px;
+    padding-bottom: 99px;
+    text-align: center;
+}
+.technology h2{
+    margin-bottom: 52px;
+}
+.technology ul li{
+    width: 200px;
+    float: left;
+    padding-top: 48px;
+    background-position: center 10px;
+    background-repeat: no-repeat;
+    margin: 0 38px;
+}
+.technology ul li div{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.technology ul li:nth-child(1) .techIcon{
+    background-image: url("../img/techIcon1.png");
+}
+.technology ul li:nth-child(2) .techIcon{
+    background-image: url("../img/techIcon2.png");
+}
+.technology ul li:nth-child(3) .techIcon{
+    background-image: url("../img/techIcon3.png");
+}
+.technology ul li:nth-child(4) .techIcon{
+    background-image: url("../img/techIcon4.png");
+}
 
+.technology ul li:nth-child(1){
+    background-image: url("../img/tech1.png");
+}
+.technology ul li:nth-child(2){
+    background-image: url("../img/tech2.png");
+}
+.technology ul li:nth-child(3){
+    background-image: url("../img/tech3.png");
+}
+.technology ul li:nth-child(4){
+    background-image: url("../img/tech4.png");
+}
 
-
-
-
-
+/*redBlock*/
+.redBlock{
+    background-color: #ED4C5C;
+    padding-top: 95px;
+    padding-bottom: 95px;
+    color: #fff;
+}
+.redBlock h2{
+    color: #fff;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.redBlock p{
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+.redBlock__left{
+    float: left;
+    width: 445px;
+}
+.redBlock__right{
+    width: 533px;
+    float: right;
+}
+.redBlock ul li{
+    float: left;
+    margin-right: 23px;
+}
+.redBlock ul li img{
+    width: 32px;
+    height: 32px;
+}
+/*footer*/
+.footer{
+    padding-top: 85px;
+    padding-bottom: 222px;
+    background-color: #FAFAFA;
+}
+.footer-menu{
+    
+}
+.footer-menu li{
+    float: left;
+    width: 254px;
+    margin-right: 30px;
+}
+.footer-menu li h4{
+    margin-bottom: 33px;
+}
+.footer-menu li:nth-child(1) p{
+    line-height: 150%;
+}
+.footer-menu li:nth-child(2) ul li{
+    margin-bottom: 7px;
+    text-transform: capitalize;
+}
+.footer-menu li:nth-child(3){
+    width: 225px;
+}
+.footer-menu li:nth-child(3) ul li{
+    margin-bottom: 15px;
+    text-transform: capitalize;
+}
+.footer-menu li:nth-child(3) ul li img{
+    margin-right: 10px;
+}
+.footer .container > p{
+    margin-top: 68px;
+}
