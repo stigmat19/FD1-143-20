@@ -2,10 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
     <title>Title</title>
 </head>
 <body>
@@ -18,13 +20,6 @@
                 <img src="img/dashicons-cloud.png" alt="logo">
                 <h4>CloudBudget</h4>
             </div>
-            <ul>
-                <li><a href="#">OVERVIEW</a></li>
-                <li><a href="#">FEATURES</a></li>
-                <li><a href="#">TECHNOLOGY</a></li>
-                <li><a href="#">CONTACT</a></li>
-                <li><a href="#">Sign up</a></li>
-            </ul>
             <div class="login">
                 <div class="language">
                     <img src="img/eng.png" alt="language">
@@ -33,6 +28,13 @@
                 </div>
                 <button class="btn">Login</button>
             </div>
+            <ul>
+                <li><a href="#">OVERVIEW</a></li>
+                <li><a href="#">FEATURES</a></li>
+                <li><a href="#">TECHNOLOGY</a></li>
+                <li><a href="#">CONTACT</a></li>
+                <li><a href="#">Sign up</a></li>
+            </ul>
         </div>
         <h1>CloudBudget</h1>
         <h3>Cloud budget management for everyone. Only
@@ -131,7 +133,7 @@
             <p>It is important to stay focused on saving money in any way you can.
                 We help you monitor your spending habits so you can easily spot and
                 cut any unnecessary expenses. Simply join today to get started!</p>
-            <ul>
+            <ul class="clearfix">
                 <li><img src="img/icon1.png" alt=""></li>
                 <li><img src="img/icon2.png" alt=""></li>
                 <li><img src="img/icon3.png" alt=""></li>
@@ -140,6 +142,29 @@
         <div class="redBlock__right">
             <img src="img/Slider.png" alt="">
         </div>
+    </div>
+</div>
+<!--contact-->
+<div class="contact">
+    <div class="container clearfix">
+        <div class="contact-descr">
+            <h2>Contact</h2>
+            <p>Questions or concerns? Just fill out the form below and our support team will get back to you within 24 hours</p>
+        </div>
+        <form action="http://fe.it-academy.by/TestForm.php" method="post">
+            <div class="up_form clearfix">
+                <input type="text" name="firstName" placeholder="First Name">
+                <input type="text" name="lastName" placeholder="Last Name">
+            </div>
+            <input type="text" name="phoneNumber" placeholder="Phone Number">
+            <select name="select service" >
+                <option value="#">SelectService</option>
+                <option value="one">one</option>
+                <option value="two">two</option>
+                <option value="three">three</option>
+            </select>
+            <input type="submit" value="Submit Now">
+        </form>
     </div>
 </div>
 <!--footer-->

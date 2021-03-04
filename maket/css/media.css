@@ -1,0 +1,169 @@
+@media all and (max-width: 1140px){
+    .container{
+        width: 800px;
+    }
+    .header{
+        background-size: 100% 104%;
+    }
+    .header ul{
+        margin: 0 auto 0;
+        clear: both;
+        padding-top: 40px;
+    }
+    .second_block--content, .second_block--video{
+        float: none;
+        margin: 0 auto;
+    }
+    .second_block--video{
+        text-align: center;
+        width: 445px;
+        margin-top: 50px;
+    }
+    .play{
+        margin-left: -26px;
+        margin-top: -179px;
+    }
+    .features ul li:last-child{
+        clear: both;
+    }
+    .features ul li:nth-child(1){
+        margin-bottom: 40px;
+    }
+    .technology ul li{
+        width: 317px;
+    }
+    .redBlock__left{
+        float: none;
+        margin: 0 auto 50px;
+    }
+    .redBlock__right{
+        float: none;
+        margin: 0 auto;
+    }
+    .footer-menu li{
+        width: 225px;
+    }
+    .contact-descr{
+        float: none;
+        margin: 0 auto 30px;
+    }
+    .contact form{
+        float: none;
+        margin: 0 auto;
+    }
+}
+
+@media all and (max-width: 830px){
+    .container{
+        width: 300px;
+    }
+    .logo{
+        width: 170px;
+        float: none;
+        clear: both;
+        overflow: hidden;
+        margin: 0 auto 25px;
+    }
+    .login{
+        width: 210px;
+        float: none;
+        overflow: hidden;
+        height: 44px;
+        margin: 0 auto;
+    }
+    .language{
+        margin-top: 4px;
+    }
+    .login button{
+        margin-top: 0;
+    }
+    .header ul{
+        width: auto;
+    }
+    .header ul li{
+        margin-bottom: 10px;
+    }
+    h1{
+        margin-top: 25px;
+        font-size: 32px;
+    }
+    .second_block--content{
+        width: 100%;
+    }
+    .second_block--content h2{
+        font-size: 24px;
+    }
+    .second_block--video{
+        width: 100%;
+    }
+    .second_block--video img:first-child{
+        width: 100%;
+    }
+    .play {
+        margin-left: 14px;
+        margin-top: -139px;
+    }
+    .second_block{
+        padding-top: 50px;
+        padding-bottom: 0;
+    }
+    .features ul li{
+        width: 100%;
+    }
+    .features ul li:nth-child(2){
+        margin-bottom: 40px;
+    }
+    .features{
+        padding-bottom: 50px;
+    }
+    .technology ul li{
+        width: 100%;
+        margin: 0 0 50px;
+    }
+    .technology{
+        padding-bottom: 20px;
+    }
+    .redBlock__left{
+        width: 100%;
+    }
+    .redBlock{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .redBlock__right{
+        width: 100%;
+    }
+    .redBlock__right img{
+        width: 100%;
+    }
+    .footer-menu li {
+        width: 100%;
+        text-align: center;
+        margin-right: 0;
+        margin-bottom: 30px;
+        float: none;
+    }
+    .footer-menu li:nth-child(3){
+        width: 100%;
+    }
+    .footer .container > p {
+        margin-top: 18px;
+        text-align: center;
+    }
+    .footer {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-descr, .contact form{
+        width: 100%;
+
+    }
+
+    .up_form input:first-child, .up_form input:last-child{
+        float: none;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
