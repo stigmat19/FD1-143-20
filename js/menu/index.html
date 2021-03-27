@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            outline: none;
+        }
+        ul li{
+            list-style-type: none;
+        }
+        .item{
+            height: 100vh;
+        }
+        .item:nth-child(2){
+            background-color: red;
+            margin-top: 30px;
+        }
+        .item:nth-child(3){
+            background-color: blue;
+        }
+        .item:nth-child(4){
+            background-color: yellow;
+        }
+        .item:nth-child(5){
+            background-color: violet;
+        }
+
+        #menu{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+        }
+        #menu li{
+            padding: 5px 10px;
+            border: 1px solid darkblue;
+        }
+    </style>
+</head>
+<body>
+
+<ul id="menu">
+    <li><a href="#first">first</a></li>
+    <li><a href="#second">second</a></li>
+    <li><a href="#third">third</a></li>
+    <li><a href="#four">four</a></li>
+</ul>
+
+<div id="first" class="item"></div>
+<div id="second" class="item"></div>
+<div id="third" class="item"></div>
+<div id="four" class="item"></div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script>
+    $(document).ready(function (){
+        $('#menu').on('click', 'a', function (e){
+            e.preventDefault();
+            var id = $(e.target).attr('href');
+            var top = $(id).offset().top
+            $('html, body').animate({
+                scrollTop: top - 30
+            }, 1000)
+        })
+    })
+</script>
+
+</body>
+</html>

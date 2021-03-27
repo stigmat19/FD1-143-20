@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #app{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+        }
+        .item{
+            width: 200px;
+            height: 300px;
+            overflow-y: auto;
+            border: black 2px solid;
+            padding: 10px;
+            margin: 10px;
+        }
+        .item img{
+            width: 100%;
+            height: 100px;
+        }
+    </style>
+</head>
+<body>
+
+<div id="app" class="test" align="right" style="color: red"></div>
+
+
+<script>
+
+    var items = [
+        {
+            title: "item1",
+            price: "2000$",
+            imgUrl: "https://sun9-70.userapi.com/c850420/v850420351/1dcdab/IxVAXbhvpQs.jpg",
+            descr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, beatae fugit harum illum laboriosam mollitia nobis nostrum perspiciatis porro quas quisquam repellat repudiandae saepe sapiente sed soluta tempora tempore veritatis!"
+        },
+        {
+            title: "item2",
+            price: "3000$",
+            imgUrl: "https://in-moto.ru/wp-content/uploads/2019/05/Moto-Guzzi-V7III-Stone.jpg",
+            descr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, beatae fugit harum illum laboriosam mollitia nobis nostrum perspiciatis porro quas quisquam repellat repudiandae saepe sapiente sed soluta tempora tempore veritatis!"
+        },
+        {
+            title: "item3",
+            price: "4000$",
+            imgUrl: "https://i0.wp.com/www.asphaltandrubber.com/wp-content/uploads/2020/07/moto-guzzi-v85-black-eagle-concept-oberdan-bezzi.jpg",
+            descr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, beatae fugit harum illum laboriosam mollitia nobis nostrum perspiciatis porro quas quisquam repellat repudiandae saepe sapiente sed soluta tempora tempore veritatis!"
+        },
+        {
+            title: "item4",
+            price: "5000$",
+            imgUrl: "https://images.androeed.ru/screenshotes/2020/07/29/real-moto-708668.png",
+            descr: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, beatae fugit harum illum laboriosam mollitia nobis nostrum perspiciatis porro quas quisquam repellat repudiandae saepe sapiente sed soluta tempora tempore veritatis!"
+        },
+    ]
+
+    //1) должен создаваться счетчик
+    //2) Условие выхода из цикла
+    //3) инкремент/(декремент - редко используется)
+
+    //TODO while
+    // var i = 0;
+    //0<3
+
+    var elemsHTML = '';
+    //
+    // while (i < items.length){
+    //     console.log(items[i]);
+    //     elemsHTML+= "<div class='item'>\n" +
+    //             "        <h3>"+items[i].title+"</h3>\n" +
+    //             "        <img src='"+items[i].imgUrl+"' alt=\"\">\n" +
+    //             "        <h4>"+items[i].price+"</h4>\n" +
+    //             "        <p>"+items[i].descr+"</p>\n" +
+    //             "        <button>to basket</button>\n" +
+    //             "   </div>"
+    //     i++
+    // }
+
+    //TODO for
+
+    // for(var i=0; i<items.length; i++){
+    //     elemsHTML+= "<div class='item'>\n" +
+    //                 "        <h3>"+items[i].title+"</h3>\n" +
+    //                 "        <img src='"+items[i].imgUrl+"' alt=\"\">\n" +
+    //                 "        <h4>"+items[i].price+"</h4>\n" +
+    //                 "        <p>"+items[i].descr+"</p>\n" +
+    //                 "        <button>to basket</button>\n" +
+    //                 "   </div>"
+    // }
+
+    //TODO do .... while
+    // var i=10;
+    // do{
+    //     elemsHTML+= "<div class='item'>\n" +
+    //                     "        <h3>"+items[i].title+"</h3>\n" +
+    //                     "        <img src='"+items[i].imgUrl+"' alt=\"\">\n" +
+    //                     "        <h4>"+items[i].price+"</h4>\n" +
+    //                     "        <p>"+items[i].descr+"</p>\n" +
+    //                     "        <button>to basket</button>\n" +
+    //                     "   </div>"
+    //     i++
+    // }
+    // while (i<items.length)
+
+
+
+    var el = document.getElementsByClassName("test");
+    el[0].innerHTML = elemsHTML
+
+
+    var usersName = ['ivanov', 'petrov', 'sidorov'];
+    var userObj = {}
+    for(var i=0; i<usersName.length; i++){
+        userObj.a = 'hello'
+        userObj['user'+(i+1)+'hello'] = usersName[i]
+    }
+
+
+
+
+
+</script>
+
+</body>
+</html>
